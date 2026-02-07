@@ -87,27 +87,10 @@ code
 Bash
 python test.py
 🔬 Methodology Visualization
-code
-Mermaid
-graph LR
-    A[Input Image] --> B[DINOv2 Backbone]
-    B --> C[MLP Head]
-    C --> D[Embeddings (H, W, 512)]
-    
-    subgraph Training
-    D --> E[Contrastive Loss]
-    E --> F[Pull Clones Together]
-    E --> G[Push Background Away]
-    end
-    
-    subgraph Inference
-    D --> H[HDBSCAN Clustering]
-    H --> I[Geometry Validation]
-    I --> J[Final Forgery Mask]
-    end
+<img width="2200" height="1618" alt="image" src="https://github.com/user-attachments/assets/628e18e1-b017-4605-9386-953fb6cc784e" />
+
 📝 Author Notes
 This project was developed to explore the intersection of Self-Supervised Learning and Forensics. By treating forgery detection as a clustering problem rather than a classification problem, the model achieves greater generalization against "unknown" manipulation types compared to traditional CNN-based approaches.
-code
 Code
 ---
 
