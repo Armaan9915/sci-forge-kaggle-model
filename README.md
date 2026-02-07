@@ -89,19 +89,3 @@ python test.py
 🔬 Methodology Visualization
 <img width="2200" height="1618" alt="image" src="https://github.com/user-attachments/assets/628e18e1-b017-4605-9386-953fb6cc784e" />
 
-📝 Author Notes
-This project was developed to explore the intersection of Self-Supervised Learning and Forensics. By treating forgery detection as a clustering problem rather than a classification problem, the model achieves greater generalization against "unknown" manipulation types compared to traditional CNN-based approaches.
-Code
----
-
-### Why this README works for Recruiters:
-
-1.  **The "Status" Badge:** It immediately sets expectations (Research Prototype vs. Production App).
-2.  **Technical Highlights:** Recruiters scan for keywords. I've explicitly listed **DINOv2**, **Contrastive Learning**, **Distributed Training**, and **Custom Losses**. These are advanced topics that differentiate you from average candidates.
-3.  **Methodology Visualization:** The Mermaid diagram (or the text description of it) shows you understand the *architecture*, not just the code.
-4.  **Clean Structure:** It separates the "What" (Architecture) from the "How" (Code structure) and the "Why" (Metric learning approach).
-
-**To use this:**
-1.  Create a file named `README.md` in the root of your folder.
-2.  Paste the markdown content above into it.
-3.  (Optional) If you have a sample image of a forgery and the output mask, add it to the repo and reference it in the README for extra visual impact.
